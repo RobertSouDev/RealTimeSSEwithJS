@@ -1,4 +1,17 @@
 {
   "name": "my-sse-app-backend",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.2.2",
+
+  "scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+  
 }
